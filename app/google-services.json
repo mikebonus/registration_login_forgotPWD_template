@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "623629973930",
+    "project_id": "demoregistration2023",
+    "storage_bucket": "demoregistration2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623629973930:android:2e7712501335e751e953d3",
+        "android_client_info": {
+          "package_name": "com.example.registrationtemplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623629973930-fkudl7uf8qgp0t0dvd0t884u3k3cui8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHK7J_DZxPh9Hk5T-Hi6q1bWwC-zYz1qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623629973930-fkudl7uf8qgp0t0dvd0t884u3k3cui8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

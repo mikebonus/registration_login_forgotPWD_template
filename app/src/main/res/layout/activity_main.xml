@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="SIGN IN"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edt_sign_in_email"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/tv_sign_in"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:hint="Sign-in Email">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_sign_in_password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/edt_sign_in_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:hint="Sign-in Password">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_sign_in_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_sign_in_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="LOGIN">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_sign_in_login"
+        android:layout_centerHorizontal="true"
+        android:text="SIGN UP">
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/tv_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_sign_up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Forgot password"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold">
+    </TextView>
+
+
+
+</RelativeLayout>
